@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1 class="tit">WEATHER APP</h1>
+    <div class="full">
+        <div class="main">
+            <div class="mainsearch">
+                <input class="searchcity" type="text" placeholder="Enter City Name" value="Colombo">
+                <button class="search">
+                    <img src="./Assets/search.png" alt="Search">
+                </button>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+        </div>
+        <div class="submain">
+            <img class="weather-icon" src="./Assets/drizzle.png" alt="Weather Icon">
+            <div class="sumsub">
+                <h3 class="tempe"></h3>
+                <h3 class="outputcity"></h3>
+            </div>
+            <div class="hum">
+                <div class="sum1">
+                    <img class="sub" src="./Assets/humidity.png" alt="Humidity Icon">
+                    <div class="sumsub">
+                        <h3 class="humid"></h3>
+                        <h3>Humidity</h3>
+                    </div>
+                </div>
+                <div class="sum2">
+                    <img class="sub" src="./Assets/wind.png" alt="Wind Icon">
+                    <div class="sumsub">
+                        <h3 class="wind"></h3>
+                        <h3>Wind Speed</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
