@@ -43,5 +43,5 @@ A simple and user-friendly **Weather App** built using **HTML**, **CSS**, and **
 ## How to Use 🖥️
 
 1. Clone this repository:
-   ```bash
-https://github.com/thivsiv/weatherapp
+   https://github.com/thivsiv/weatherapp/
+
